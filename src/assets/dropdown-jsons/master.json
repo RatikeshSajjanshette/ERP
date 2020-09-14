@@ -1,0 +1,75 @@
+[
+  {
+    "key": "location",
+    "label": "Locations",
+    "class": "none"
+  },
+  {
+    "key": "country",
+    "label": "Country"
+  },
+  {
+    "key": "state",
+    "label": "State"
+  },
+  {
+    "key": "city",
+    "label": "City"
+  },
+  {
+    "key": "area",
+    "label": "Area"
+  },
+  {
+    "key": "itemMasterMain",
+    "label": "Item Master"
+  },
+  {
+    "key": "uoms",
+    "label":"UOMS"
+  },
+  {
+    "key":"itemTemplate",
+    "label": "Item Template"
+  },
+  {
+    "key": "itemCategory",
+    "label": "Item Category"
+  },
+  {
+    "key": "itemGroup",
+    "label": "Item Group"
+  },
+  {
+    "key":"itemType",
+    "label": "Item Type"
+  },
+  {
+    "key":"itemMaster",
+    "label": "Item Master"
+  },
+  {
+    "key": "grades",
+    "label": "Grades"
+  },
+  {
+    "key": "binLocations",
+    "label": "Bin Locations"
+  },
+  {
+    "key":"warehouseName",
+    "label": "Warehouse Name"
+  },
+  {
+    "key": "zone",
+    "label": "Zone"
+  },
+  {
+    "key": "rack",
+    "label": "Rack"
+  },
+  {
+    "key": "userList",
+    "label": "User List"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "enquiries",
+    "label": "Enquiries"
+  },
+  {
+    "key": "quotations",
+    "label": "Quotations"
+  },
+  {
+    "key":"quotCompare",
+    "label": "Quote Compare"
+  },
+  {
+    "key":"purchaseEntry",
+    "label": "Purchase Entry"
+  },
+  {
+    "key": "purchaseBill",
+    "label": "PurchaseBill"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "key": "salesLead",
+    "label": "Sales Lead"
+  },
+  {
+    "key": "salesEnquiry",
+    "label": "Sales Enquiry"
+  },
+  {
+    "key": "salesQuotation",
+    "label": "Sales Quotation"
+  },
+  {
+    "key": "salesOrder",
+    "label": "Sales Order"
+  }
+]

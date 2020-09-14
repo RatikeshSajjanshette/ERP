@@ -1,0 +1,86 @@
+[
+  {
+    "key": "accountMasterHeading",
+    "label": "Account Master"
+  },
+  {
+    "key": "ledgerGroup",
+    "label": "Ledger/Group"
+  },
+  {
+    "key": "suppliersHeading",
+    "label": "Suppliers"
+  },
+  {
+    "key": "supplierClass",
+    "label": "Supplier Class"
+  },
+  {
+    "key": "suppliers",
+    "label": "Suppliers"
+  },
+  {
+    "key": "customersHeading",
+    "label": "Customers"
+  },
+  {
+    "key": "customerClass",
+    "label": "Customer Class"
+  },
+  {
+    "key": "customers",
+    "label": "Customers"
+  },
+  {
+    "key": "invoicesBillHeading",
+    "label": "Invoices & Bill"
+  },
+  {
+    "key": "purchaseInvoice",
+    "label": "Purchase Invoice"
+  },
+  {
+    "key":"salesInvoice",
+    "label": "Sales Invoice"
+  },
+  {
+    "key": "otherExpense",
+    "label": "Other Expense"
+  },
+  {
+    "key": "otherIncome",
+    "label": "Other Income"
+  },
+  {
+    "key": "creditNote",
+    "label": "Credit Note"
+  },
+  {
+    "key": "debitNote",
+    "label": "Debit Note"
+  },
+  {
+    "key": "vouchersHeading",
+    "label": "Vouchers"
+  },
+  {
+    "key": "paymentEntry",
+    "label": "Payment Entry"
+  },
+  {
+    "key": "receiveEntry",
+    "label": "Receive Entry"
+  },
+  {
+    "key": "journalEntry",
+    "label": "Journal Entry"
+  },
+  {
+    "key": "contraEntry",
+    "label": "Contra Entry"
+  },
+  {
+    "key": "bankReconcilationHeading",
+    "label": "Bank Reconcilation"
+  }
+]

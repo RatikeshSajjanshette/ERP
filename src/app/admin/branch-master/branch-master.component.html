@@ -1,0 +1,255 @@
+<div class="branch-master-form-container">
+  <form [formGroup]="branchMasterForm">
+    <div class="form-row align-items-center">
+      <div class="col-md-3">
+        <label class="sr-only" for="branchCode">Branch Code</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Branch Code</div>
+          </div>
+          <input
+            type="text"
+            formControlName="branchCode"
+            class="form-control"
+            id="branchCode"
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label class="sr-only" for="branchName">Branch Name</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Branch Name</div>
+          </div>
+          <input
+            type="text"
+            formControlName="branchName"
+            class="form-control"
+            id="branchName"
+          />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="parentBranch">Parent Branch</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Parent Branch</div>
+          </div>
+          <select formControlName="parentBranch" class="custom-select" id="parentBranch">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="country">Country</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Country</div>
+          </div>
+          <select formControlName="country" class="custom-select" id="country">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="state">State</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">State</div>
+          </div>
+          <select formControlName="state" class="custom-select" id="state">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label class="sr-only" for="city">City</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">City</div>
+          </div>
+          <select formControlName="city" class="custom-select" id="city">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="area">Area</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Area</div>
+          </div>
+          <input
+            type="text"
+            formControlName="area"
+            class="form-control"
+            id="area"
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label class="sr-only" for="address">Address</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Address</div>
+          </div>
+          <textarea
+            type="text"
+            formControlName="address"
+            rows="4"
+            class="form-control"
+            id="address"
+          ></textarea>
+        </div>
+      </div>
+      <div class="pin-tan-container col-md-6">
+        <div class="col-md-6">
+          <label class="sr-only" for="pinCode">PIN Code</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">PIN Code</div>
+            </div>
+            <input
+              type="text"
+              formControlName="pinCode"
+              class="form-control"
+              id="pinCode"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label class="sr-only" for="village">Village</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Village</div>
+            </div>
+            <input
+              type="text"
+              formControlName="village"
+              class="form-control"
+              id="village"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label class="sr-only" for="gstNo">GST No.</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">GST No.</div>
+            </div>
+            <input
+              type="text"
+              formControlName="gstNo"
+              class="form-control"
+              id="gstNo"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label class="sr-only" for="tanNo">TAN No.</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">TAN No.</div>
+            </div>
+            <input
+              type="text"
+              formControlName="tanNo"
+              class="form-control"
+              id="tanNo"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="website">Website</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Website</div>
+          </div>
+          <input
+            type="text"
+            formControlName="website"
+            class="form-control"
+            id="website"
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label class="sr-only" for="email">Email</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Email</div>
+          </div>
+          <input
+            type="text"
+            formControlName="email"
+            class="form-control"
+            id="email"
+          />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="phone">Phone</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Phone</div>
+          </div>
+          <input
+            type="text"
+            formControlName="phone"
+            class="form-control"
+            id="phone"
+          />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="regNo">Reg. No.</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Reg. No.</div>
+          </div>
+          <input
+            type="text"
+            formControlName="regNo"
+            class="form-control"
+            id="regNo"
+          />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="sr-only" for="category">Category</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Category</div>
+          </div>
+          <select formControlName="category" class="custom-select" id="category">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="branch-master-form-footer">
+  <app-footer
+    [formName]="'Branch Master'"
+    (saveEmitter)="saveForm()"
+    (resetEmitter)="resetForm()"
+  ></app-footer>
+</div>

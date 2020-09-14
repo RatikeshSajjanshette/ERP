@@ -1,0 +1,11 @@
+@import 'variables';
+
+.header-container{
+  background-color: $white !important;
+  display: flex;
+  justify-content: space-around;
+  .logo{
+    height: 54px;
+    width: 140px;
+  }
+}

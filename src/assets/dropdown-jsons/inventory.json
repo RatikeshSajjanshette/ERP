@@ -1,0 +1,22 @@
+[
+  {
+    "key": "grn",
+    "label": "GRN"
+  },
+  {
+    "key":"stockTracking",
+    "label": "Stock Tracking"
+  },
+  {
+    "key": "stockTransfer",
+    "label": "Stock Transfer"
+  },
+  {
+    "key": "goodsReturn",
+    "label": "Goods Return"
+  },
+  {
+    "key": "stockAdjustment",
+    "label": "Stock Adjustment"
+  }
+]

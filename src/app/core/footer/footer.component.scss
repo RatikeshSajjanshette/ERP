@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+
+.footer-container {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $grey;
+  color: $white;
+  .form-name {
+    color: $white;
+    @include sub-header;
+  }
+  .control-names {
+    border: 1px solid $black;
+    padding: 8px;
+    margin-right: 4px;
+    color: $white;
+    cursor: pointer;
+    @include sub-header;
+    &:hover {
+      background-color:$white;
+      color: $black;
+    }
+  }
+}
+
+

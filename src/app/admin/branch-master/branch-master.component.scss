@@ -1,0 +1,21 @@
+@import 'variables';
+
+.branch-master-form-container {
+  padding: 24px;
+  margin: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  .pin-tan-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+  }
+}
+.branch-master-form-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.input-group-text{
+  min-width: 130px;
+}
+
