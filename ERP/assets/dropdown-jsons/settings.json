@@ -1,0 +1,14 @@
+[
+  {
+    "key":"voucherNosSetting",
+    "label": "Voucher Nos Setting"
+  },
+  {
+    "key":"barcodeSetting",
+    "label": "Barcode Setting"
+  },
+  {
+    "key": "workFlowSetting",
+    "label":"Workflow Setting"
+  }
+]

@@ -1,0 +1,40 @@
+[{
+  "key": "employeeMaster",
+  "label": "Employee Master",
+  "routeUrl": "/employee-master"
+},
+{
+  "key": "companyMaster",
+  "label": "Company Master",
+  "routeUrl": "/company-master"
+},
+{
+  "key": "branchMaster",
+  "label":"Branch Master",
+  "routeUrl": "/branch-master"
+},
+{
+  "key": "financialYear",
+  "label": "Financial Year",
+  "routeUrl": "/home"
+},
+{
+  "key": "roleMaster",
+  "label": "Role Master",
+  "routeUrl": "/home"
+},
+{
+  "key":"roleAccessRights",
+  "label": "Role Access Rights",
+  "routeUrl": "/home"
+},
+{
+  "key": "taxMasters",
+  "label": "Tax Masters",
+  "routeUrl": "/home"
+},
+{
+  "key": "officeMaster",
+  "label": "Office Master",
+  "routeUrl": "/home"
+}]
